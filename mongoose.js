@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const uri = 'mongodb://root:alfierichou@127.0.0.1:27017/test'
+const uri = 'mongodb://alfieri:test2018@@127.0.0.1:27017/test'
 const demo = async () => {
   await mongoose.connect(uri, { useNewUrlParser: true })
   await mongoose.connection.dropDatabase()

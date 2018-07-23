@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb')
-  const uri = 'mongodb://root:alfierichou@127.0.0.1:27017/test'
+  const uri = 'mongodb://alfieri:test2018@@127.0.0.1:27017/test'
 const demo = async () => {
   const client = await MongoClient.connect(uri, { useNewUrlParser: true})
 
