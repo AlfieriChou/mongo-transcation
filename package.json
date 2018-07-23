@@ -1,0 +1,28 @@
+{
+  "name": "mongo-transcation",
+  "version": "1.0.0",
+  "description": "mongodb transcation test demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieriChou/mongo-transcation.git"
+  },
+  "keywords": [
+    "mongo",
+    "transcation"
+  ],
+  "author": "AlfieriChou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfieriChou/mongo-transcation/issues"
+  },
+  "homepage": "https://github.com/AlfieriChou/mongo-transcation#readme",
+  "dependencies": {
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.4",
+    "monk": "^6.0.6"
+  }
+}
